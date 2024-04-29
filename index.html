@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Ecommerce</title>
+</head>
+
+<body>
+    <div id="root">
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Inicio</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Serviços</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Localização</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Segmentos
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">E-commerce</a></li>
+                                        <li><a class="dropdown-item" href="#">FinTechs</a></li>
+                                        <li><a class="dropdown-item" href="#">Mobilidade</a></li>
+                                        <li><a class="dropdown-item" href="#">Midias</a></li>
+                                        <li><a class="dropdown-item" href="#">Direito</a></li>
+                                        <li><a class="dropdown-item" href="#">Hospitalidade</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="email" placeholder="E-mail" aria-label="E-mail">
+                                <button class="btn btn-success" type="submit">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+                <div id="logo">
+                    <img src="./images/Group.png" alt="E-commerce" />
+                    <p><strong>Transformação Digital</strong>
+                        <br>
+                        Lorem Ipsum is simply dummy
+                        text of the printing and typesetting
+                        industry.
+                        <br>
+                        <button class="btn btn-primary" onclick=getNotifications()>Ativar Notificações</button>
+                    </p>
+                </div>
+            </div>
+    </div>
+
+    <section>
+        <h2>Localização</h2>
+        <h4>Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's standard.</h4>
+        <div class="maps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56982.72477620985!2d-48.67306708798131!3d-26.79474273943784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8d18447391c59%3A0x47ea680d4e62fde3!2sPenha%2C%20SC!5e0!3m2!1spt-PT!2sbr!4v1713451564923!5m2!1spt-PT!2sbr"
+                width="400px" height="300px" style="border:1px solid;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section>
+        <h2>Serviços</h2>
+        <h4>Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's standard</h4>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="col-custom">
+                        <h2>UX DESIGN</h2>
+                        Web Development
+                        o SaaS Platform Development
+                        o Full Stack Development.
+
+                        We create innovative solution
+                        to solve customer problems.
+
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="col-custom">
+                        <h2>FRONT END</h2>
+                        Lorem Ipsum is simply
+                        dummy text of the printing
+                        and typesetting industry.
+
+                        Lorem Ipsum has been the
+                        industry's standard dummy
+                        text ever since the 1500s.
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="col-custom">
+                        <h2>TEST</h2>
+                        Designing success through
+                        creative web design for your
+                        business to be the best.
+
+                        Improving customer engagement
+                        with enhanced user experience.
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="col-custom">
+                        <h2>DELIVERY</h2>
+                        Develop your MVP with our
+                        experts who help create a solution
+                        that solves customer problems.
+
+                        We fill in the technology gaps for you.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Segmentos</h2>
+        <h4>Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's </h4>
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-4 col-lg-4">
+                    <div class="col">
+                        <span class="material-icons">
+                            store_mall_directory
+                        </span>
+                        <strong>E-commerce</strong>
+                        <p>We assist physical and digital retailers, wholesalers, and suppliers to automate
+                            commercial
+                            operations and business workflows.
+                            With e-commerce solutions, ERPS and improvised customer services.</p>
+                    </div>
+                </div>
+
+                <div class="col col-md-4 col-lg-4">
+                    <div class="col">
+                        <span class="material-icons">
+                            monetization_on
+                        </span>
+                        <strong>FinTechs</strong>
+                        <p>We assist physical and digital retailers, wholesalers, and suppliers to automate
+                            commercial
+                            operations and business workflows.
+                            With e-commerce solutions, ERPS and improvised customer services.</p>
+
+                    </div>
+                </div>
+
+                <div class="col col-md-4 col-lg-4">
+                    <div class="col">
+                        <span class="material-icons">
+                            directions_car
+                        </span>
+                        <strong>Mobilidade</strong>
+                        <p>We assist physical and digital retailers, wholesalers, and suppliers to automate
+                            commercial
+                            operations and business workflows.
+                            With e-commerce solutions, ERPS and improvised customer services.</p>
+                    </div>
+                </div>
+
+                <div class="col col-md-4 col-lg-4">
+                    <div class="col">
+                        <span class="material-icons">
+                            live_tv
+                        </span>
+                        <strong>Entretenimento</strong>
+                        <p>We assist physical and digital retailers, wholesalers, and suppliers to automate
+                            commercial
+                            operations and business workflows. With e-commerce solutions, ERPS and improvised
+                            customer
+                            services.</p>
+                    </div>
+                </div>
+
+                <div class="col col-md-4 col-lg-4">
+                    <div class="col">
+                        <span class="material-icons">
+                            balance
+                        </span>
+                        <strong>Direito</strong>
+                        <p>We assist physical and digital retailers, wholesalers, and suppliers to automate
+                            commercial
+                            operations and business workflows.
+                            With e-commerce solutions, ERPS and improvised customer services.</p>
+                    </div>
+                </div>
+
+                <div class="col col-md-4 col-lg-4">
+                    <div class="col">
+                        <span class="material-icons">
+                            room_service
+                        </span>
+                        <strong>Hospitalidade</strong>
+                        <p>We assist physical and digital retailers, wholesalers, and suppliers to automate
+                            commercial
+                            operations and business workflows.
+                            With e-commerce solutions, ERPS and improvised customer services.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <p>&copy; Copyright 2024 <br>
+            <small>Desenvolvido por <a href="https://github.com/ketilensagas">Ketilen Sagas</a>.</small>
+        </p>
+    </footer>
+
+    <script src="./js/notification.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
+        <!--<script src="./js/scripts.js"></script>
+            <script src="./js/geolocation.js"></script>-->
+
+</body>
+</html>

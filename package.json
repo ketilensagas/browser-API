@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "name": "browser-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ketilensagas"
+  },
+  "author": "Ketilen Sagas",
+  "license": "ISC",
+  "description": ""
+}
